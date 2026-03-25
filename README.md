@@ -19,7 +19,7 @@ Trains the Random Forest classifier on the top 100 features. Splits data by gene
 
 ## Prediction Scripts
 
-Load a pre-trained model and generate predicted probabilities (of being a PAG) for all gene models. Each script also exports feature importances ranked by Gini score.
+Load a pre-trained model and generate predicted probabilities (of being a PAG) for all gene models. Each script also exports feature importances ranked by Gini score. These scripts are related to Supplemental Dataset S3.
 
 | Script | Feature Set | Output Files |
 |---|---|---|
@@ -28,7 +28,7 @@ Load a pre-trained model and generate predicted probabilities (of being a PAG) f
 | `Prediction_2675Features.py` | 2,675 features | `Allgenes_predictedprobabilities_2675features_syntenycorrected.csv`, `Allfeaturesimportance_2675features_syntenycorrected.csv` |
 
 ### `Prediction_rice_arabidopsis.py`
-Applies the maize-trained model to predict gene function in **rice** and **Arabidopsis**, producing per-species prediction CSVs.
+Applies the maize-trained model to predict gene function in **rice** and **Arabidopsis**, producing per-species prediction CSVs. This script is related to Supplemental Dataset S5.
 
 ---
 
@@ -40,7 +40,7 @@ Performs pairwise feature-level comparisons across gene categories using **Mann-
 2. nonPAG_nonPSE-c vs. PAG
 3. nonPAG_nonPSE-c vs. PSE-c
 
-Each output CSV contains per-feature means, standard deviations, Mann-Whitney statistic, p-value, and Cohen's d.
+Each output CSV contains per-feature means, standard deviations, Mann-Whitney statistic, p-value, and Cohen's d. This script is related to Supplemental Dataset S2.
 
 ---
 

@@ -17,7 +17,7 @@ feature_imp_df.iloc[0:100,].to_csv('Allfeaturesimportance_2675features_syntenyco
 
 predictiondata = pd.DataFrame({
     'GeneID':rawfeatures.gene.values,
-    'Predicted_Probability': loaded_rf.predict_proba(np.array(rawfeatures.drop(['gene', 'Label', 'Part','family'], axis=1)))[:, 1],
+    'Predicted_Probability': loaded_rf.predict_proba(np.array(rawfeatures.drop(['gene', 'Label', 'family'], axis=1)))[:, 1],
     
 })
 
