@@ -78,7 +78,7 @@ Compares functional genomic properties of top vs. bottom quartile predicted gene
 - **D** – Stacked bar chart of variant effect proportions by quartile.
 - **E** – Average absolute zero-shot scores across genomic regions (gene body, CDS, 5′UTR, 3′UTR, intron) with significance annotations.
 
-**Outputs**: `Figure3_March19.svg`, `Figure3_March19.png`
+**Outputs**: `Figure4.svg`, `Figure4.png`
 
 ---
 
